@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="type def" Type="Folder">
+		<Item Name="TimeoutDefinition.ctl" Type="VI" URL="../Generador de Señales/Type definition/TimeoutDefinition.ctl"/>
+	</Item>
 	<Item Name="Generador de Señales.lvclass" Type="LVClass" URL="../Generador de Señales/Generador de Señales.lvclass"/>
 </Library>

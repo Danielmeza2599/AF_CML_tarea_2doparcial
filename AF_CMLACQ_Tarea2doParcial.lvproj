@@ -46,7 +46,7 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Generador de Funciones.lvclass" Type="LVClass" URL="../Generador de Funciones/Generador de Funciones/Generador de Funciones.lvclass"/>
+			<Item Name="Generador de Funciones.lvclass" Type="LVClass" URL="../Generador de Funciones/Generador de Funciones/Supp/Generador de Funciones.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
