@@ -14,9 +14,16 @@
 			<Item Name="Generador de Funciones.lvlib" Type="Library" URL="../Generador de Funciones/Generador de Funciones.lvlib"/>
 			<Item Name="Generador de Señales.lvlib" Type="Library" URL="../Generador de Señales/Generador de Señales.lvlib"/>
 		</Item>
+		<Item Name="Loggin actors" Type="Folder">
+			<Item Name="Text Parent" Type="Folder">
+				<Item Name="Loggin.lvlib" Type="Library" URL="../Loggin/Loggin.lvlib"/>
+			</Item>
+			<Item Name="TDMS.lvlib" Type="Library" URL="../TDMS/TDMS.lvlib"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
@@ -46,7 +53,6 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Generador de Funciones.lvclass" Type="LVClass" URL="../Generador de Funciones/Generador de Funciones/Supp/Generador de Funciones.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
